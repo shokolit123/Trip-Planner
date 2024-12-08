@@ -27,11 +27,17 @@ input {
 
 button {
 	border: 0;
+	outline: none;
 	cursor: pointer;
+}
+
+li {
+	list-style: none;
 }
 
 body {
 	min-height: 100svh;
+	//width: 100vw;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
